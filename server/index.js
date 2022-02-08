@@ -30,3 +30,10 @@ that allow a response to be sent back to the client
 
 the res.send method sends a simple text response to the client when called.
 */
+
+//starting the server on the PI
+
+app.listen(3000, function()
+{
+  console.log('Server listening on port 3000');
+});
