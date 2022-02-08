@@ -9,5 +9,8 @@ List of hardware components:
 	2. Raspberry pi 4 Screen 10.1 (1280x800)
 	3. HiLetgo DHT22
 
+![image](https://user-images.githubusercontent.com/66815083/152920999-78ff0fea-676a-40cb-949a-cd2cd12c5750.png)
+
+![image](https://user-images.githubusercontent.com/66815083/152921029-4144fa57-81c4-4ea3-abe1-52e02e395f1d.png)
 
 I will update the read me as the project progresses.
