@@ -2,16 +2,16 @@ const express = require('express'); //the require function is a part of the node
 //standard library, it imports the module given as an argument and returns it
 const app = express(); //we create an instance of the server application
 
-app.get('/temperature', function(req, res))
+app.get('/temperature', function(req, res)
 {
   res.send('24 ℃');
-};
+});
 
 
-app.get ('/humidity', function(req, res))
+app.get ('/humidity', function(req, res)
 {
   res.send('48%');
-};
+});
 
 /*
 explanation of the method above, app get is a method of the app server object
