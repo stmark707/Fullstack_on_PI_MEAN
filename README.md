@@ -27,5 +27,5 @@ Completed task:
 	3. Wrote the program to receive readings from the sensor
 
 ![image](https://user-images.githubusercontent.com/66815083/153104411-b97bf21d-2898-42b0-bac6-6aabb569c9b6.png)
-![DHT22 Sensor](https://user-images.githubusercontent.com/66815083/153104431-c8226fd0-c55b-4ec6-bbe9-e20922a2ddaf.png)
+![DHT22 Sensor (1)](https://user-images.githubusercontent.com/66815083/153104947-4af8dd60-bf3d-44b4-8065-e3d29df1501f.png)
 ![image](https://user-images.githubusercontent.com/66815083/153104472-489ecd9a-4baa-41e3-ac8e-e23b57dedd32.png)
