@@ -18,3 +18,10 @@ List of hardware components:
 ![image](https://user-images.githubusercontent.com/66815083/152921029-4144fa57-81c4-4ea3-abe1-52e02e395f1d.png)
 
 I will update the read me as the project progresses.
+
+###UPDATE 2/8/2022###
+
+Completed task:
+	1. Created a wiring diagram to display the connection between the DHT22 and Raspberry Pi
+	2. Integrated GPIO and sensor Libraries
+	3. Wrote the program to receive readings from the sensor
