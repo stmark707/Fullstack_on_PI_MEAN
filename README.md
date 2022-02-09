@@ -25,3 +25,7 @@ Completed task:
 	1. Created a wiring diagram to display the connection between the DHT22 and Raspberry Pi
 	2. Integrated GPIO and sensor Libraries
 	3. Wrote the program to receive readings from the sensor
+
+![image](https://user-images.githubusercontent.com/66815083/153104411-b97bf21d-2898-42b0-bac6-6aabb569c9b6.png)
+![DHT22 Sensor](https://user-images.githubusercontent.com/66815083/153104431-c8226fd0-c55b-4ec6-bbe9-e20922a2ddaf.png)
+![image](https://user-images.githubusercontent.com/66815083/153104472-489ecd9a-4baa-41e3-ac8e-e23b57dedd32.png)
