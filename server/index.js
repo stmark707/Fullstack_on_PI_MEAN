@@ -5,7 +5,7 @@ const sensor = require('node-dht-sensor');
 
 app.get('/temperature', function(req, res)
 {
-  sensor.read(22, 4, function(err, temperature, humidity))
+  sensor.read(22, 4, function(err, temperature, humidity)
   {
     if (err)
     {
@@ -18,7 +18,7 @@ app.get('/temperature', function(req, res)
 
 app.get ('/humidity', function(req, res)
 {
-  sensor.read(22, 4, function(err, temperature, humidity))
+  sensor.read(22, 4, function(err, temperature, humidity)
   {
     if (err)
     {
