@@ -1,31 +1,17 @@
 const express = require('express'); //the require function is a part of the nodes
 //standard library, it imports the module given as an argument and returns it
 const app = express(); //we create an instance of the server application
-const sensor = require('node-dht-sensor');
+const getCachedSensorReadings = require('./get-cached-sensor-readings');
 
 app.get('/temperature', function(req, res)
 {
-  sensor.read(22, 4, function(err, temperature, humidity)
-  {
-    if (err)
-    {
-      console.error(err);
-    }
-    res.send(temperature.toFixed(1) + '℃');
-  });
+    res.send(getCachedSensorReadings.getTemperature().toFixed(1) + '℃');
 });
 
 
 app.get ('/humidity', function(req, res)
 {
-  sensor.read(22, 4, function(err, temperature, humidity)
-  {
-    if (err)
-    {
-      console.error(err);
-    }
-    res.send(humidity.toFixed(1) + '%');
-  });
+    res.send(getCachedSensorReadings.getHumidity().toFixed(1) + '℃');
 });
 
 /*
