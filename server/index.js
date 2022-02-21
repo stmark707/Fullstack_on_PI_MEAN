@@ -34,11 +34,8 @@ the res.send method sends a simple text response to the client when called.
 */
 
 
-//serving the index.html
-app.get('/public', function(req, res)
-{
-  res.sendFile(path.join(__dirname, 'index.html'))
-});
+//serving the index.html--using express middleware
+app.use('/public', express.static(path.join(__dirname, 'public')));
 
 //starting the server on the PI
 app.listen(3000, function()
