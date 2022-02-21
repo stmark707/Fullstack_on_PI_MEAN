@@ -1,5 +1,6 @@
 const express = require('express'); //the require function is a part of the nodes
 //standard library, it imports the module given as an argument and returns it
+const path = require('path');
 const app = express(); //we create an instance of the server application
 const getCachedSensorReadings = require('./get-cached-sensor-readings');
 
@@ -32,8 +33,14 @@ that allow a response to be sent back to the client
 the res.send method sends a simple text response to the client when called.
 */
 
-//starting the server on the PI
 
+//serving the index.html
+app.get('/public', function(req, res)
+{
+  res.sendFile(path.join(__dirname, 'index.html'));
+});
+
+//starting the server on the PI
 app.listen(3000, function()
 {
   console.log('Server listening on port 3000');
