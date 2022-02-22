@@ -9,10 +9,10 @@ const fetchTemperature = () => {
       return results.text();
     });
 
-    then(text =>
+    .then(text =>
     {
-      const temperatureDisplay = document.getElementById('temperature-diplay');
-      temperatureDisplay.innerHTML = text;
+      const temperaturedisplay = document.getElementById('temperature-display');
+      temperaturedisplay.innerHTML = text;
     });
 }
 
@@ -24,10 +24,10 @@ const fetchHumidity = () =>
       return results.text();
     });
 
-    then(text =>
+    .then(text =>
       {
-        const humidityDisplay = document.getElementById('humidity-diplay');
-        humidityDisplay.innerHTML = text;
+        const humiditydisplay = document.getElementById('humidity-display');
+        humiditydisplay.innerHTML = text;
   });
 }
 
