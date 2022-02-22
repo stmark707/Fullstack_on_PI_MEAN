@@ -7,13 +7,13 @@ const app = express(); //we create an instance of the server application
 app.get('/temperature', function(req, res)
 {
     res.send(getCachedSensorReadings.getTemperature().toFixed(1) + '℃');
-});
+});*/
 
 
 app.get ('/humidity', function(req, res)
 {
     res.send(getCachedSensorReadings.getHumidity().toFixed(1) + '℃');
-});*/
+});
 
 /*
 explanation of the method above, app get is a method of the app server object
