@@ -1,6 +1,6 @@
 const express = require('express'); //the require function is a part of the nodes
 //standard library, it imports the module given as an argument and returns it
-const path = require('path');
+//const path = require('path');
 const app = express(); //we create an instance of the server application
 const getCachedSensorReadings = require('./get-cached-sensor-readings');
 
@@ -35,7 +35,7 @@ the res.send method sends a simple text response to the client when called.
 
 
 //serving the index.html--using express middleware
-app.use('/public', express.static(path.join(__dirname, 'public')));
+//app.use('/public', express.static(path.join(__dirname, 'public')));
 
 //starting the server on the PI
 app.listen(3000, function()
