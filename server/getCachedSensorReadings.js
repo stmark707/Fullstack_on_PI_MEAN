@@ -1,4 +1,4 @@
-const getSensorReadings = require('./get-sensor-readings');
+const getSensorReadings = require('./getSensorsReadings');
 
 const cache = {
   temperature: null,
