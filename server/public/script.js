@@ -9,7 +9,7 @@ const fetchTemperature = () => {
       return results.text();
     });
 
-    then(text =>
+    .then(text =>
     {
       const temperatureDisplay = document.getElementById('temperature-diplay');
       temperatureDisplay.innerHTML = text;
@@ -24,7 +24,7 @@ const fetchHumidity = () =>
       return results.text();
     });
 
-    then(text =>
+    .then(text =>
       {
         const humidityDisplay = document.getElementById('humidity-diplay');
         humidityDisplay.innerHTML = text;
