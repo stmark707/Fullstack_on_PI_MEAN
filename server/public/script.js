@@ -12,7 +12,7 @@ const fetchTemperature = () => {
     text => {
       const temperaturedisplay = document.getElementById('temperature-display');
       temperaturedisplay.innerHTML = text;
-    });
+    };
 }
 
 const fetchHumidity = () =>
@@ -26,7 +26,7 @@ const fetchHumidity = () =>
     text => {
         const humiditydisplay = document.getElementById('humidity-display');
         humiditydisplay.innerHTML = text;
-  });
+  };
 }
 
 setInterval(() => {
