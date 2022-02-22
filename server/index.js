@@ -2,7 +2,7 @@ const express = require('express'); //the require function is a part of the node
 //standard library, it imports the module given as an argument and returns it
 const path = require('path');
 const app = express(); //we create an instance of the server application
-const getCachedSensorReadings = require('./getCachedSensorReadings');
+const getCachedSensorReadings = require('./get-Cached-Sensor-Readings');
 
 //serving the index.html--using express middleware
 app.use('/public', express.static(path.join(__dirname, 'public')));
@@ -15,7 +15,7 @@ app.get('/temperature', function(req, res)
 
 app.get ('/humidity', function(req, res)
 {
-    res.send('<strong>' + getCachedSensorReadings.getHumidity().toFixed(1) + '</strong>' + '℃');
+    res.send('<strong>' + getCachedSensorReadings.getHumidity().toFixed(1) + '</strong>' + '%');
 });
 
 /*
