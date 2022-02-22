@@ -15,7 +15,7 @@ app.get('/temperature', function(req, res)
 
 app.get ('/humidity', function(req, res)
 {
-    res.send('<strong>' + getCachedSensorReadings.getHumidity().toFixed(1) + '</strong>' + '%');
+    res.send('<strong>' + getCachedSensorReadings.getHumidity().toFixed(1) + '</strong>' + '%%');
 });
 
 /*
@@ -35,10 +35,6 @@ that allow a response to be sent back to the client
 
 the res.send method sends a simple text response to the client when called.
 */
-
-
-//serving the index.html--using express middleware
-app.use('/public', express.static(path.join(__dirname, 'public')));
 
 //starting the server on the PI
 app.listen(3000, function()
