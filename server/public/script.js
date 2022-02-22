@@ -26,8 +26,8 @@ const fetchHumidity = () =>
 
     then(text =>
       {
-        const temperatureDisplay = document.getElementById('humidity-diplay');
-        temperatureDisplay.innerHTML = text;
+        const humidityDisplay = document.getElementById('humidity-diplay');
+        humidityDisplay.innerHTML = text;
   });
 }
 
