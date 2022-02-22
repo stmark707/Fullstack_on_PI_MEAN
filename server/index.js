@@ -2,7 +2,7 @@ const express = require('express'); //the require function is a part of the node
 //standard library, it imports the module given as an argument and returns it
 const path = require('path');
 const app = express(); //we create an instance of the server application
-const getCachedSensorReadings = require('/get-cached-sensor-readings');
+const getCachedSensorReadings = require('./getCachedSensorReadings');
 
 app.get('/temperature', function(req, res)
 {
