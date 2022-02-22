@@ -6,13 +6,13 @@ const getCachedSensorReadings = require('./getCachedSensorReadings');
 
 app.get('/temperature', function(req, res)
 {
-    res.send('<strong>'getCachedSensorReadings.getTemperature().toFixed(1) + '</strong>' + '℃');
+    res.send('<strong>'+ getCachedSensorReadings.getTemperature().toFixed(1) + '</strong>' + '℃');
 });
 
 
 app.get ('/humidity', function(req, res)
 {
-    res.send('<strong>' getCachedSensorReadings.getHumidity().toFixed(1) + '</strong>' + '℃');
+    res.send('<strong>' + getCachedSensorReadings.getHumidity().toFixed(1) + '</strong>' + '℃');
 });
 
 /*
