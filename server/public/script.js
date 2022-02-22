@@ -9,7 +9,7 @@ fetch('/temperature')
   return results.text();
 });
 
-.then(text) =>
+then(text) =>
 {
   const temperatureDisplay = document.getElementById('temperature-diplay');
   temperatureDisplay.innerHTML = text;
