@@ -7,7 +7,7 @@ const fetchTemperature = () => { //something wrong with this syntax...
   .then(results =>
     {
       return results.text();
-    });
+    })
     .then(text => {
       const temperaturedisplay = document.getElementById('temperature-display');
       temperaturedisplay.innerHTML = text;
@@ -20,12 +20,11 @@ const fetchHumidity = () =>
   .then(results =>
     {
       return results.text();
-    });
-
-    text => {
+    })
+    .then(text => {
         const humiditydisplay = document.getElementById('humidity-display');
         humiditydisplay.innerHTML = text;
-  };
+  });
 };
 
 setInterval(() => {
