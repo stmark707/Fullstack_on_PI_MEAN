@@ -4,6 +4,9 @@ const path = require('path');
 const app = express(); //we create an instance of the server application
 const getCachedSensorReadings = require('./getCachedSensorReadings');
 
+//serving the index.html--using express middleware
+app.use('/public', express.static(path.join(__dirname, 'public')));
+
 app.get('/temperature', function(req, res)
 {
     res.send('<strong>'+ getCachedSensorReadings.getTemperature().toFixed(1) + '</strong>' + '℃');
