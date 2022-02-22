@@ -2,17 +2,16 @@ console.log('Executing client side javascript...');
 
 
 //Fetch API to retrieve Data
-const fetchTemperature = (fetch('/temperature')) => { //something wrong with this syntax...
-  //fetch('/temperature')
+const fetchTemperature = () => { //something wrong with this syntax...
+  fetch('/temperature')
   .then(results =>
     {
       return results.text();
     });
-
-    text => {
+    .then(text => {
       const temperaturedisplay = document.getElementById('temperature-display');
       temperaturedisplay.innerHTML = text;
-    };
+    });
 };
 
 const fetchHumidity = () =>
