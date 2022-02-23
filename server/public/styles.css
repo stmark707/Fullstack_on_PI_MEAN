@@ -118,6 +118,7 @@ flex > * + *
 {
   margin-top: 0;
   margin-left: 1.5em;
+  justify-content: flex-start;
 }
 
 .temperature_tile
@@ -218,5 +219,5 @@ flex > * + *
 .Column_Side_Bar
 {
   flex:1;
-  margin-top: inherit;
+  margin-top: 0px;
 }
