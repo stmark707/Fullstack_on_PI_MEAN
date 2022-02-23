@@ -113,7 +113,7 @@ body * + *
 
 }
 
-flex * + *
+flex > * + *
 {
   margin-top: 0;
   margin-left: 3em;
@@ -123,7 +123,6 @@ flex * + *
 {
   padding: 1.5em;
   background-color: #f8F7F3;
-
   border-radius: 20px;
   width: inherit;
   height: inherit;
