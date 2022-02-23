@@ -207,6 +207,7 @@ flex > * + *
 .System_Architecture_Section
 {
   flex:2;
+  margin-top: 0px;
 }
 
 .Column_Side_Bar
