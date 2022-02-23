@@ -157,6 +157,7 @@ flex > * + *
   border-radius: 20px;
   width: 60%;
   height: 15%;
+  align-items: center;
 }
 
 .System_Archictecture_Sub_Title
@@ -171,6 +172,7 @@ flex > * + *
   border-radius: 20px;
   width: 80%;
   height: 15%;
+  align-items: center;
 }
 
 .humidity_Sub_Title
@@ -180,6 +182,7 @@ flex > * + *
   border-radius: 20px;
   width: 80%;
   height: 15%;
+  align-items: center;
 }
 
 /*#humidity-display
