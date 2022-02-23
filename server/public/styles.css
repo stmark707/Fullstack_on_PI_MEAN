@@ -211,7 +211,7 @@ flex > * + *
 .System_Architecture_Section
 {
   flex:2;
-  margin-top: inherit;
+  box-sizing: border-box;
 }
 
 .Column_Side_Bar
