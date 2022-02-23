@@ -165,6 +165,7 @@ flex > * + *
 .System_Archictecture_Sub_Title
 {
   padding: 2%;
+  text-align: center;
 }
 
 .temperature_Sub_Title
@@ -175,7 +176,7 @@ flex > * + *
   width: 80%;
   height: 15%;
   margin: 0 auto;
-
+  text-align: center;
 }
 
 .humidity_Sub_Title
@@ -186,6 +187,7 @@ flex > * + *
   width: 80%;
   height: 15%;
   margin: 0 auto;
+  text-align: center;
 }
 
 /*#humidity-display
@@ -207,7 +209,7 @@ flex > * + *
 .System_Architecture_Section
 {
   flex:2;
-  margin-top: 0px;
+  margin-top: -2em;
 }
 
 .Column_Side_Bar
