@@ -181,5 +181,5 @@ flex * + *
 
 .humidity_title
 {
-  display: block;
+  justify-content: center;
 }
