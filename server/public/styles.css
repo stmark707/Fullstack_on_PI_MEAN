@@ -182,7 +182,7 @@ flex > * + *
   height: 15%;
 }
 
-#humidity-display
+/*#humidity-display
 {
   width: 7em;
   height: 7em;
@@ -196,7 +196,7 @@ flex > * + *
   height: 7em;
   background: url('Loading_Content_Tiles.svg');
   background-size: cover;
-}
+}*/
 
 .System_Architecture_Section
 {
