@@ -134,7 +134,6 @@ flex * + *
 {
   padding: 1.5em;
   background-color: #f8F7F3;
-  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.7);
   border-radius: 20px;
   width: inherit;
   height: inherit;
@@ -158,8 +157,8 @@ flex * + *
   padding: 1.5em;
   background-color: #D0DCE9;
   border-radius: 20px;
-  width: inherit;
-  height: inherit;
+  width: 40%;
+  height: 40%;
 }
 
 .temperature_sub_title_BG
@@ -167,8 +166,8 @@ flex * + *
   padding: 1.5em;
   background-color: #D0DCE9;
   border-radius: 20px;
-  width: inherit;
-  height: inherit;
+  width: 40%;
+  height: 40%;
 }
 
 .humidity_sub_title_BG
@@ -176,6 +175,6 @@ flex * + *
   padding: 1.5em;
   background-color: #D0DCE9;
   border-radius: 20px;
-  width: inherit;
-  height: inherit;
+  width: 40%;
+  height: 40%;
 }
