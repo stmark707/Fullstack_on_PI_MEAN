@@ -218,5 +218,5 @@ flex > * + *
 .Column_Side_Bar
 {
   flex:1;
-  margin-top: 2em;
+  margin-top: inherit;
 }
