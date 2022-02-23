@@ -22,10 +22,20 @@ body * + *
   margin-top: 2em;
 }
 
+.Mobile_Nav_Only //TODO: Make this available to mobile screens hiding this for now
+{
+  display:none;
+}
+
 .container
 {
   max-width: 1080px;
   margin: 0 auto;
+}
+
+.Intro_to_pages
+{
+  display: flex;
 }
 
 .Welcome_Paragraph
@@ -33,7 +43,7 @@ body * + *
   font-family: 'Architects Daughter', cursive;
 }
 
-.magnifying_glass_right
+.magnifying_glass_right //TODO: play around with Icon sizing, get away from px, try em for responsiveness
 {
   width: 64px;
   height: 64px;
