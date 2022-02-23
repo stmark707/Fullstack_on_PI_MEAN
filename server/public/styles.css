@@ -52,7 +52,7 @@ body * + *
 .Intro_to_pages > .magnifying_glass_left
 {
   margin-right: auto;
-  margin-bottom: 0;
+  margin-bottom: inherit;
 }
 
 .Welcome_Paragraph
