@@ -68,7 +68,7 @@ body * + *
 .Title_Header
 {
   font-size: 4em;
-  justify-content: center;
+  text-align: center;
 }
 
 .Welcome_Paragraph
