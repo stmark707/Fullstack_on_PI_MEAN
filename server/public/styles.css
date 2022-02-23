@@ -22,7 +22,7 @@ body * + *
   margin-top: 2em;
 }
 
-.Mobile_Nav_Only //TODO: Make this available to mobile screens hiding this for now
+.Mobile_only /*//TODO: Make this available to mobile screens hiding this for now*/
 {
   display:none;
 }
@@ -43,7 +43,8 @@ body * + *
   font-family: 'Architects Daughter', cursive;
 }
 
-.magnifying_glass_right //TODO: play around with Icon sizing, get away from px, try em for responsiveness
+/*//TODO: play around with Icon sizing, get away from px, try em for responsiveness*/
+.magnifying_glass_right
 {
   width: 64px;
   height: 64px;
