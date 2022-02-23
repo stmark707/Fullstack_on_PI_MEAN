@@ -158,7 +158,7 @@ flex > * + *
 .System_Architecture_Background_SBT
 {
   background-color: #D0DCE9;
-  border-radius: 20px;
+  border-radius: 15px;
   width: 60%;
   height: 10%;
   margin: 0 auto;
@@ -169,13 +169,14 @@ flex > * + *
 {
   text-align: center;
   margin-top: 0px;
+  vertical-align: middle;
 }
 
 .temperature_Sub_Title
 {
   padding: 2%;
   background-color: #D0DCE9;
-  border-radius: 20px;
+  border-radius: 15px;
   width: 80%;
   height: 10%;
   margin: 0 auto;
@@ -187,7 +188,7 @@ flex > * + *
 {
   padding: 2%;
   background-color: #D0DCE9;
-  border-radius: 20px;
+  border-radius: 15px;
   width: 80%;
   height: 10%;
   margin: 0 auto;
@@ -197,13 +198,13 @@ flex > * + *
 #temperature_title
 {
   margin-top: 0px;
-  justify-content: center;
+  vertical-align: middle;
 }
 
 #humidity_title
 {
   margin-top: 0px;
-  justify-content: center;
+  vertical-align: middle;
 }
 
 /*#humidity-display
