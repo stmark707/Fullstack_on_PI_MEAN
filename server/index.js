@@ -9,7 +9,7 @@ app.use('/public', express.static(path.join(__dirname, 'public')));
 
 app.get('/temperature', function(req, res)
 {
-    res.send('<strong>'+ getCachedSensorReadings.getTemperature().toFixed(1) + '</strong>' + '℃');
+    res.send('<strong>'+ getCachedSensorReadings.getTemperature().toFixed(1) + '</strong>' + '<span>&#176;C' + '</span>');
 });
 
 
