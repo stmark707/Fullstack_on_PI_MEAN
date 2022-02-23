@@ -161,7 +161,7 @@ flex > * + *
   width: 60%;
   height: 15%;
   margin: 0 auto;
-  
+
 
 }
 
@@ -218,5 +218,5 @@ flex > * + *
 .Column_Side_Bar
 {
   flex:1;
-  margin-top: 0px;
+  margin-top: 1em;
 }
