@@ -161,6 +161,8 @@ flex > * + *
   width: 60%;
   height: 15%;
   margin: 0 auto;
+  position: absolute;
+  top: 0px;
 
 }
 
@@ -211,7 +213,7 @@ flex > * + *
 .System_Architecture_Section
 {
   flex:2;
-  box-sizing: border-box;
+
 }
 
 .Column_Side_Bar
