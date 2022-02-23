@@ -161,12 +161,13 @@ flex > * + *
   width: 60%;
   height: 15%;
   margin: 0 auto;
+  justify-content: flex-start;
 }
 
 .System_Archictecture_Sub_Title
 {
-  
   text-align: center;
+
 }
 
 .temperature_Sub_Title
