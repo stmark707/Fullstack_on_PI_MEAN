@@ -178,3 +178,8 @@ flex * + *
   width: 80%;
   height: 10%;
 }
+
+.humidity_title
+{
+  display: block;
+}
