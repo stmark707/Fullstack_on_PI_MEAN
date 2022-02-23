@@ -162,7 +162,7 @@ flex > * + *
   width: 60%;
   height: 10%;
   margin: 0 auto;
-  vertical-align: middle;
+  text-align: center;
 }
 
 .System_Archictecture_Sub_Title
@@ -181,7 +181,8 @@ flex > * + *
   height: 10%;
   margin: 0 auto;
   text-align: center;
-  vertical-align: middle;
+  align-items: center;
+  justify-content: center;
 }
 
 .humidity_Sub_Title
@@ -205,7 +206,7 @@ flex > * + *
 #humidity_title
 {
   margin-top: 0px;
-  
+
 }
 
 /*#humidity-display
