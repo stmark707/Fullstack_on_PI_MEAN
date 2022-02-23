@@ -73,8 +73,7 @@ body * + *
 
 .Welcome_Background
 {
-  display:block;
-  align-items: center;
+  margin: 0 auto;
   width: 60%;
   background-color: #f8F7F3;
   max-height: 80%;
@@ -85,7 +84,7 @@ body * + *
 .Welcome_Paragraph
 {
   font-family: 'Architects Daughter', cursive;
-  font-weight: bolder;
+  font-weight: bold;
   font-size: 2em;
 }
 
