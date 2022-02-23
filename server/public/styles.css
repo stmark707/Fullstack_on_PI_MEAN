@@ -126,6 +126,7 @@ flex > * + *
   border-radius: 20px;
   width: inherit;
   height: inherit;
+  margin-bottom: 2em;
 
 }
 
@@ -182,7 +183,6 @@ flex > * + *
   border-radius: 20px;
   width: 80%;
   height: 15%;
-  margin-top: 2em;
   margin: 0 auto;
 }
 
