@@ -46,12 +46,13 @@ body * + *
 .Intro_to_pages > .magnifying_glass_right
 {
   margin-left: auto;
-  align-items: baseline;
+
 }
 
 .Intro_to_pages > .magnifying_glass_left
 {
   margin-right: auto;
+  align-items: baseline;
 }
 
 .Welcome_Paragraph
