@@ -58,7 +58,6 @@ body * + *
   width: 64px;
   height: 64px;
   background: url('Magnifying_glass_header.svg');
-  -webkit-transform: scaleX(-1);
   transform: scaleX(-1);
   background-size: cover;
 }
