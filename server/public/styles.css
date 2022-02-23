@@ -85,6 +85,8 @@ body * + *
 .Welcome_Paragraph
 {
   font-family: 'Architects Daughter', cursive;
+  font-weight: bolder;
+  font-size: 2em;
 }
 
 /*//TODO: play around with Icon sizing, get away from px, try em for responsiveness*/
