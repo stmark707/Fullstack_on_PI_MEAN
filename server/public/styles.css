@@ -107,3 +107,28 @@ body * + *
   transform: scaleX(-1);
   background-size: cover;
 }
+
+.tile
+{
+  padding: 1.5em;
+  background-color: #f8F7F3;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.7);
+  border-radius: 20px;
+
+}
+
+.System_Architecture_Contents_Background
+{
+  padding: 1.5em;
+  background-color: #f8F7F3;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.7);
+  border-radius: 20px;
+}
+
+.System_Architecture_Background_SBT
+{
+  padding: 1.5em;
+  background-color: #f8F7F3;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.7);
+  border-radius: 20px;
+}

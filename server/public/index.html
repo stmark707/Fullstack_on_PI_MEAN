@@ -26,24 +26,41 @@
         <li><a href="#humidity">Humidity</a></li>
       </ul>
     </nav>
-
-  <main class="flex">
     <div class="Welcome_Background">
       <p class="Welcome_Paragraph"> Welcome, this is a dashboard to monitor the temperature and humidity change in my apartment over time. The sensor being used is the DHT22.  </p>
     </div>
+  <main class="flex">
 
+    <div class="System_Architecture_Section">
+      <div class"System_Architecture_Background_SBT">
+        <h2 class="System_Archictecture_Sub_Title"> System Architecture </h2>
+      </div>
+      <div class="System_Architecture_Contents_Background">
+        <p class="System_Architecture_Contents_1"> This tile will be used to display the architecture of the project.</p>
+      </div>
+    </div>
 
+    <div class="Column_Side_Bar">
+      <div class="temperature_sub_title_BG">
+        <div class="temperature_Sub_Title">
+          <h2 id="temperature_title" >Temperature: </h2>
+        </div>
+      </div>
 
+      <div class="temperature_tile">
+        <p id="temperature-display"> <strong> Loading temperature... </strong> </p>
+      </div>
 
+      <div class="humidity_sub_title_BG">
+        <div class="humidity_Sub_Title">
+          <h2 id="humidity_title">Humidity: </h2>
+        </div>
+      </div>
+      <div class="humidity_tile">
+        <p id="humidity-display"><strong> Loading humidity...</strong> </p>
+      </div>
 
-
-      <p id="temperature_title" >Temperature: </p>
-      <p id="temperature-display"> <strong> Loading temperature... </strong> </p>
-      <p id="humidity_title">Humidity: </p>
-      <p id="humidity-display"><strong> Loading humidity...</strong> </p>
-
-
-
+  </div>
   </div>
 </main>
 <script src="script.js"></script>
