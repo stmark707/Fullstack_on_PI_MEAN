@@ -161,7 +161,7 @@ flex > * + *
   width: 60%;
   height: 15%;
   margin: 0 auto;
-  align-self: auto;
+
 }
 
 .System_Archictecture_Sub_Title
@@ -211,7 +211,7 @@ flex > * + *
 .System_Architecture_Section
 {
   flex:2;
-  flex-shrink:2;
+  margin-top: inherit;
 }
 
 .Column_Side_Bar
