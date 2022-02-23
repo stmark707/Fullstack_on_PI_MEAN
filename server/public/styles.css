@@ -153,29 +153,33 @@ flex > * + *
 
 .System_Architecture_Background_SBT
 {
-
   background-color: #D0DCE9;
   border-radius: 20px;
   width: 60%;
-  height: 10%;
+  height: 15%;
+}
+
+.System_Archictecture_Sub_Title
+{
+  padding: 2%;
 }
 
 .temperature_Sub_Title
 {
-
+  padding: 2%;
   background-color: #D0DCE9;
   border-radius: 20px;
   width: 80%;
-  height: 10%;
+  height: 15%;
 }
 
 .humidity_Sub_Title
 {
-
+  padding: 2%;
   background-color: #D0DCE9;
   border-radius: 20px;
   width: 80%;
-  height: 10%;
+  height: 15%;
 }
 
 .System_Architecture_Section
