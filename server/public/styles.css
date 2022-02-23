@@ -212,5 +212,5 @@ flex > * + *
 .Column_Side_Bar
 {
   flex:1;
-  align-content: flex-start;
+  margin-top: 0px;
 }
