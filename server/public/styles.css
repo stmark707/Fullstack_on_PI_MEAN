@@ -182,6 +182,22 @@ flex > * + *
   height: 15%;
 }
 
+#humidity-display
+{
+  width: 7em;
+  height: 7em;
+  background: url('Loading_Content_Tiles.svg');
+  background-size: cover;
+}
+
+#temperature-display
+{
+  width: 7em;
+  height: 7em;
+  background: url('Loading_Content_Tiles.svg');
+  background-size: cover;
+}
+
 .System_Architecture_Section
 {
   flex:2;
