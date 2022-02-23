@@ -127,7 +127,7 @@ flex > * + *
   width: inherit;
   height: inherit;
   margin-bottom: 2em;
-
+  text-align: center;
 }
 
 .humidity_tile
@@ -137,6 +137,7 @@ flex > * + *
   border-radius: 20px;
   width: inherit;
   height: inherit;
+  text-align: center;
 }
 
 .System_Architecture_Contents_Background
@@ -174,7 +175,7 @@ flex > * + *
   width: 80%;
   height: 15%;
   margin: 0 auto;
-  margin-top: 0px;
+
 }
 
 .humidity_Sub_Title
@@ -211,4 +212,5 @@ flex > * + *
 .Column_Side_Bar
 {
   flex:1;
+  align-content: flex-start;
 }
