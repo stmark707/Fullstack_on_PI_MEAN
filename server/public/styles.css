@@ -52,7 +52,7 @@ body * + *
 .Intro_to_pages > .magnifying_glass_left
 {
   margin-right: auto;
-  align-items: baseline;
+  padding-bottom: 0;
 }
 
 .Welcome_Paragraph
