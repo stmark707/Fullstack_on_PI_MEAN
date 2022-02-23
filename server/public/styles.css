@@ -116,7 +116,8 @@ body * + *
 flex > * + *
 {
   margin-top: 0;
-  margin-left: 3em;
+  margin-left: 2em;
+  column-gap: 1em;
 }
 
 .temperature_tile
