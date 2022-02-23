@@ -194,6 +194,15 @@ flex > * + *
   text-align: center;
 }
 
+.temperature_title
+{
+  margin-top: 0px;
+}
+
+.humidity_title
+{
+  margin: 0px;
+}
 /*#humidity-display
 {
   width: 7em;
