@@ -46,8 +46,8 @@ body * + *
 /*//TODO: play around with Icon sizing, get away from px, try em for responsiveness*/
 .magnifying_glass_right
 {
-  width: 1em;
-  height: 1em;
+  width: 10em;
+  height: 10em;
   background: url('Magnifying_glass_header.svg');
   background-size: cover;
 
@@ -55,8 +55,8 @@ body * + *
 
 .magnifying_glass_left
 {
-  width: 1em;
-  height: 1em;
+  width: 10em;
+  height: 10em;
   background: url('Magnifying_glass_header.svg');
   transform: scaleX(-1);
   background-size: cover;
