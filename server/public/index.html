@@ -11,13 +11,41 @@
   <title>Climate Monitoring Dashboard</title>
 </head>
 <body>
-<p id="temperature_title" >Temperature: </p>
-<p id="temperature-display"> <strong> Loading temperature... </strong> </p>
-<p id="humidity_title">Humidity: </p>
-<p id="humidity-display"><strong> Loading humidity...</strong> </p>
+  <div class="container">
+    <header>
+      <div class="magnifying_glass_left"></div>
+      <div class="Title_Header_Background">
+      <h1 class="Title_Header"> Climate Dashboard </h1>
+      </div>
+      <div class="magnifying_glass_right"></div>
+    </header>
+    <nav>
+      <ul class="Mobile_Nav_Only"> <!--Nav section needs to be display hidden / only for mobile-->
+        <li><a href="#system_architecture">System Architecture</a></li>
+        <li><a href="#temperature">Temperature</a></li>
+        <li><a href="#humidity">Humidity</a></li>
+      </ul>
+    </nav>
+
+  <main class="flex">
+    <div class="Welcome_Background">
+      <p class="Welcome_Paragraph"> Meep </p>
+    </div>
 
 
 
+
+
+
+      <p id="temperature_title" >Temperature: </p>
+      <p id="temperature-display"> <strong> Loading temperature... </strong> </p>
+      <p id="humidity_title">Humidity: </p>
+      <p id="humidity-display"><strong> Loading humidity...</strong> </p>
+
+
+
+  </div>
+</main>
 <script src="script.js"></script>
 </body>
 </html>
