@@ -161,7 +161,7 @@ flex * + *
   height: 10%;
 }
 
-.temperature_sub_title_BG
+.temperature_Sub_Title
 {
   padding: 1.5em;
   background-color: #D0DCE9;
@@ -170,7 +170,7 @@ flex * + *
   height: 10%;
 }
 
-.humidity_sub_title_BG
+.humidity_Sub_Title
 {
   padding: 1.5em;
   background-color: #D0DCE9;
@@ -179,7 +179,12 @@ flex * + *
   height: 10%;
 }
 
-.humidity_title
+.System_Architecture_Section
 {
-  background-color: #D0DCE9;
+  flex:2;
+}
+
+.Column_Side_Bar
+{
+  flex:1;
 }
