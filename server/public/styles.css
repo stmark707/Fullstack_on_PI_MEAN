@@ -111,6 +111,7 @@ body * + *
 .flex
 {
   display:flex;
+  padding: 1.5em
 }
 
 flex * + *
