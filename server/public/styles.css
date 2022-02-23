@@ -39,6 +39,7 @@ body * + *
   padding-left:0;
   margin-left: 1.5em;
   margin-top: 0;
+  align-items: center;
 }
 
 .Intro_to_pages > .magnifying_glass_right
