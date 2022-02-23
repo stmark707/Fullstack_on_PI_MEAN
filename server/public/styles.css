@@ -52,7 +52,7 @@ body * + *
 .Intro_to_pages > .magnifying_glass_left
 {
   margin-right: auto;
-  margin-bottom: inherit;
+  margin-bottom: -4%;
 }
 
 .Title_Header_Background
