@@ -200,12 +200,14 @@ flex > * + *
 #temperature_title
 {
   margin-top: 0px;
+  text-align: center;
 
 }
 
 #humidity_title
 {
   margin-top: 0px;
+  text-align: center;
 
 }
 
