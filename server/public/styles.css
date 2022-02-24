@@ -200,14 +200,14 @@ flex > * + *
 #temperature_title
 {
   margin-top: 0px;
-  text-align: center;
+  text-align: inherit;
 
 }
 
 #humidity_title
 {
   margin-top: 0px;
-  text-align: center;
+  text-align: inherit;
 
 }
 
