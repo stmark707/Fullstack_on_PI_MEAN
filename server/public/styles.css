@@ -194,8 +194,8 @@ flex > * + *
   height: 10%;
   margin: 0 auto;
   text-align: center;
-  vertical-align: middle;
-  line-height: inherit;
+
+
 }
 
 #temperature_title
@@ -210,7 +210,7 @@ flex > * + *
   margin-top: 0px;
   text-align: inherit;
   margin-bottom: 0px;
-  vertical-align: middle;
+  padding-bottom: 2%;
 
 }
 
