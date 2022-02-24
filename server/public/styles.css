@@ -195,19 +195,22 @@ flex > * + *
   margin: 0 auto;
   text-align: center;
   vertical-align: middle;
+  line-height: inherit;
 }
 
 #temperature_title
 {
   margin-top: 0px;
   text-align: inherit;
-
+  margin-bottom: 0px;
 }
 
 #humidity_title
 {
   margin-top: 0px;
   text-align: inherit;
+  margin-bottom: 0px;
+  vertical-align: middle;
 
 }
 
