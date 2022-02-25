@@ -208,21 +208,15 @@ flex > * + *
   text-align: center;
 }
 
-/*#humidity-display
+#humidity-display
 {
-  width: 7em;
-  height: 7em;
-  background: url('Loading_Content_Tiles.svg');
-  background-size: cover;
+  font-size: 3em;
 }
 
 #temperature-display
 {
-  width: 7em;
-  height: 7em;
-  background: url('Loading_Content_Tiles.svg');
-  background-size: cover;
-}*/
+  font-size: 3em;
+}
 
 .System_Architecture_Section
 {
