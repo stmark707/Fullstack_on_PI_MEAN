@@ -111,7 +111,6 @@ body * + *
 {
   display:flex;
   column-gap: 1em;
-  flex-direction: column;
   justify-content: center; /*horizontal alignment*/
   align-items: center; /*vertical alignment*/
 }
