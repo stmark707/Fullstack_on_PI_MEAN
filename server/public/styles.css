@@ -162,6 +162,8 @@ flex > * + *
   width: 60%;
   height: 10%;
   margin: 0 auto;
+  line-height: inherit;
+  padding: 0;
 
 }
 
@@ -170,7 +172,6 @@ flex > * + *
   text-align: center;
   margin-top: 0px;
   margin-bottom: 0px;
-  padding: 1em;
 }
 
 .temperature_Sub_Title
