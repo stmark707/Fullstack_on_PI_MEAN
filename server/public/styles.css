@@ -182,7 +182,7 @@ flex > * + *
   width: 80%;
   height: 10%;
   margin: 0 auto;
-
+  padding: 0;
 }
 
 .humidity_Sub_Title
@@ -193,7 +193,7 @@ flex > * + *
   width: 80%;
   height: 10%;
   margin: 0 auto;
-
+  padding: 0;
 }
 
 #temperature_title
@@ -213,14 +213,14 @@ flex > * + *
 
 #humidity-display
 {
-  font-size: 3em;
-  font-weight: 200;
+  font-size: 2em;
+  font-weight: lighter;
 }
 
 #temperature-display
 {
-  font-size: 3em;
-  font-weight: 200;
+  font-size: 2em;
+  font-weight: lighter;
 }
 
 .System_Architecture_Section
