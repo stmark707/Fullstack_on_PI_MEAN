@@ -32,17 +32,19 @@ Completed task:
 
 
 ################################ 2/25/2022 Update ###########################################
+
+
 Completed task:
 	1. Made a responsive web mockup on figma
 	2. Using a script to update the values every 2 seconds on the GUI
-	3. Implemented the mockup on local server, will add responsive changes at a later time. 
-	
+	3. Implemented the mockup on local server, will add responsive changes at a later time.
+
 ![Full Stack W_ Raspberry Pi (1)](https://user-images.githubusercontent.com/66815083/155817685-0d4f32ff-4dce-466f-a76a-a25230f606b8.png)
 
-This is a mockup of the mobile version of the site. The main changes are the layout and the navigation bar. 
+This is a mockup of the mobile version of the site. The main changes are the layout and the navigation bar.
 
 ![image](https://user-images.githubusercontent.com/66815083/155817830-005edf31-c102-4b8a-87cf-855620fd1d76.png)
 
-This is what the GUI currently looks like on a desktop. 
+This is what the GUI currently looks like on a desktop.
 
 The architecture of the system has not been finalized and I have not created a diagram for it.
