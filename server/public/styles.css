@@ -143,11 +143,6 @@ flex > * + *
   text-align: center;
 }
 
-.System_Architecture_Section
-{
-  align-items: flex-start;
-}
-
 .System_Architecture_Contents_Background
 {
   padding: 1.5em;
@@ -229,6 +224,11 @@ flex > * + *
   font-family: 'Architects Daughter', cursive;
   font-size: 2em;
   font-weight: bolder;
+}
+
+flex.System_Architecture_Section
+{
+  align-items: flex-start;
 }
 
 .System_Architecture_Section
