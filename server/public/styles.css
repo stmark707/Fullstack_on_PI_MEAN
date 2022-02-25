@@ -215,14 +215,14 @@ flex > * + *
 {
   font-family: 'Architects Daughter', cursive;
   font-size: 2em;
-  font-weight: 200;
+  font-weight: bolder;
 }
 
 #temperature-display
 {
   font-family: 'Architects Daughter', cursive;
   font-size: 2em;
-  font-weight: 200;
+  font-weight: bolder;
 }
 
 .System_Architecture_Section
