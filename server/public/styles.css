@@ -229,6 +229,7 @@ flex > * + *
 .System_Architecture_Section
 {
   flex:2;
+  display: inline-block;
   vertical-align: top;
 }
 
