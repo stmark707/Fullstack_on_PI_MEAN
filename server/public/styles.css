@@ -191,8 +191,7 @@ flex > * + *
   width: 80%;
   height: 10%;
   margin: 0 auto;
-  padding: 0;
-  vertical-align: middle;
+
 }
 
 #temperature_title
