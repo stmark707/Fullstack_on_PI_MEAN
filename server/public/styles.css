@@ -211,11 +211,13 @@ flex > * + *
 #humidity-display
 {
   font-size: 3em;
+  font-weight: 200;
 }
 
 #temperature-display
 {
   font-size: 3em;
+  font-weight: 200;
 }
 
 .System_Architecture_Section
