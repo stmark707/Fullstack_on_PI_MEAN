@@ -111,8 +111,8 @@ body * + *
 {
   display:flex;
   column-gap: 1em;
-  justify-content: center;
-  align-items: center;
+  justify-content: center; /*horizontal alignment*/
+  align-items: center; /*vertical alignment*/
 }
 
 flex > * + *
@@ -141,6 +141,11 @@ flex > * + *
   width: inherit;
   height: inherit;
   text-align: center;
+}
+
+.System_Architecture_Section
+{
+  align-items: flex-start;
 }
 
 .System_Architecture_Contents_Background
