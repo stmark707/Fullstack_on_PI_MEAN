@@ -162,8 +162,6 @@ flex > * + *
   width: 60%;
   height: 10%;
   margin: 0 auto;
-  line-height: 10%;
-  vertical-align: middle;
 }
 
 .System_Archictecture_Sub_Title
@@ -181,8 +179,7 @@ flex > * + *
   width: 80%;
   height: 10%;
   margin: 0 auto;
-  line-height: 10%;
-  vertical-align: middle;
+
 
 }
 
@@ -194,8 +191,6 @@ flex > * + *
   width: 80%;
   height: 10%;
   margin: 0 auto;
-  line-height: 10%;
-  vertical-align: middle;
 }
 
 #temperature_title
