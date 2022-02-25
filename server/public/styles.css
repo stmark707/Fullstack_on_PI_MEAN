@@ -118,7 +118,9 @@ flex > * + *
 {
   margin-top: 0;
   margin-left: 1.5em;
-  justify-content: flex-start;
+  /*justify-content: flex-start;*/
+  justify-content: center;
+  align-items: center;
 }
 
 .temperature_tile
