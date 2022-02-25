@@ -169,6 +169,7 @@ flex > * + *
   text-align: center;
   margin-top: 0px;
   margin-bottom: 0px;
+  vertical-align: middle;
 }
 
 .temperature_Sub_Title
