@@ -226,14 +226,10 @@ flex > * + *
   font-weight: bolder;
 }
 
-flex.System_Architecture_Section
-{
-  align-items: flex-start;
-}
-
 .System_Architecture_Section
 {
   flex:2;
+  vertical-align: top;
 }
 
 .Column_Side_Bar
