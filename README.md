@@ -29,3 +29,20 @@ Completed task:
 ![image](https://user-images.githubusercontent.com/66815083/153104411-b97bf21d-2898-42b0-bac6-6aabb569c9b6.png)
 ![DHT22 Sensor (1)](https://user-images.githubusercontent.com/66815083/153104947-4af8dd60-bf3d-44b4-8065-e3d29df1501f.png)
 ![image](https://user-images.githubusercontent.com/66815083/153104472-489ecd9a-4baa-41e3-ac8e-e23b57dedd32.png)
+
+
+################################ 2/25/2022 Update ###########################################
+Completed task:
+	1. Made a responsive web mockup on figma
+	2. Using a script to update the values every 2 seconds on the GUI
+	3. Implemented the mockup on local server, will add responsive changes at a later time. 
+	
+![Full Stack W_ Raspberry Pi (1)](https://user-images.githubusercontent.com/66815083/155817685-0d4f32ff-4dce-466f-a76a-a25230f606b8.png)
+
+This is a mockup of the mobile version of the site. The main changes are the layout and the navigation bar. 
+
+![image](https://user-images.githubusercontent.com/66815083/155817830-005edf31-c102-4b8a-87cf-855620fd1d76.png)
+
+This is what the GUI currently looks like on a desktop. 
+
+The architecture of the system has not been finalized and I have not created a diagram for it.
