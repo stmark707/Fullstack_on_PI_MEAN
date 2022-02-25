@@ -213,14 +213,16 @@ flex > * + *
 
 #humidity-display
 {
+  font-family: 'Architects Daughter', cursive;
   font-size: 2em;
-  font-weight: lighter;
+  font-weight: 200;
 }
 
 #temperature-display
 {
+  font-family: 'Architects Daughter', cursive;
   font-size: 2em;
-  font-weight: lighter;
+  font-weight: 200;
 }
 
 .System_Architecture_Section
