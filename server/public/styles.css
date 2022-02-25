@@ -112,7 +112,7 @@ body * + *
   display:flex;
   column-gap: 1em;
   justify-content: center; /*horizontal alignment*/
-  align-items: center; /*vertical alignment*/
+  /*align-items: center; vertical alignment*/
 }
 
 flex > * + *
