@@ -159,7 +159,7 @@ flex > * + *
 .System_Architecture_Background_SBT
 {
   background-color: #D0DCE9;
-  border-radius: 15px;
+  border-radius: 10px;
   width: 60%;
   height: 10%;
   margin: 0 auto;
@@ -179,7 +179,7 @@ flex > * + *
 {
   padding: 2%;
   background-color: #D0DCE9;
-  border-radius: 15px;
+  border-radius: 10px;
   width: 80%;
   height: 10%;
   margin: 0 auto;
@@ -190,7 +190,7 @@ flex > * + *
 {
   padding: 2%;
   background-color: #D0DCE9;
-  border-radius: 15px;
+  border-radius: 10px;
   width: 80%;
   height: 10%;
   margin: 0 auto;
@@ -229,8 +229,6 @@ flex > * + *
 .System_Architecture_Section
 {
   flex:2;
-  display: inline-block;
-  vertical-align: top;
 }
 
 .Column_Side_Bar
