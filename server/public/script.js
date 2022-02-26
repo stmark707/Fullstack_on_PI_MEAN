@@ -38,7 +38,7 @@ const data = {
 };
 const newtemperatureChart = new Chart(temperaturegetChart,
   {
-    type: 'line'
+    type: 'line',
     data: data,
     options:
     {
