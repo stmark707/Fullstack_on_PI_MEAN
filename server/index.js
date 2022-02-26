@@ -9,7 +9,7 @@ app.use('/public', express.static(path.join(__dirname, 'public')));
 
 app.get('/temperature', function(req, res)
 {
-    res.json({value:getCachedSensorReadings.getTemperature().toFixed(1)});
+    res.json({value: getCachedSensorReadings.getTemperature().toFixed(1)});
 });
 
 

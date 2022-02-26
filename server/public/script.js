@@ -10,7 +10,7 @@ const fetchTemperature = () => { //something wrong with this syntax...
     })
     .then(data => {
       const temperaturedisplay = document.getElementById('temperature-display');
-      temperaturedisplay.innerHTML = '<strong>' + data.value + '</strong>';
+      temperaturedisplay.innerHTML =  data.value ;
     });
 };
 
@@ -23,7 +23,7 @@ const fetchHumidity = () =>
     })
     .then(data => {
         const humiditydisplay = document.getElementById('humidity-display');
-        humiditydisplay.innerHTML = '<strong>' + data.value + '</strong>';
+        humiditydisplay.innerHTML = data.value;
   });
 };
 
