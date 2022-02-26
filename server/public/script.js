@@ -50,7 +50,7 @@ const newtemperatureChart = new Chart(temperaturegetChart,
       responsive: true,
       maintainAspectRatio: false
     }
-  });
+  })
 
 
 setInterval(() => {
