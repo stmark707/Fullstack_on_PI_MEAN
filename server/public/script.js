@@ -33,7 +33,8 @@ const temperature_data = {
     labels: ['10:00', '10:10' , '10:20', '10:30'],
     datasets: [{
       data: [12, 15, 25, 30],
-      backgroundColor: 'rgba(66,110,202,0.5)'
+      backgroundColor: 'rgba(66,110,202,0.5)',
+      fill: true
     }]
 };
 const humidity_data = {
