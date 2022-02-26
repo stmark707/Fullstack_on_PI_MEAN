@@ -10,7 +10,7 @@ const fetchTemperature = () => { //something wrong with this syntax...
     })
     .then(text => {
       const temperaturedisplay = document.getElementById('temperature-display');
-      temperaturedisplay.innerHTML = '<strong>' + data.value + '<span>&#176;C' + '</span>' '</strong>';
+      temperaturedisplay.innerHTML = '<strong>' + data.value + '<span>&#176;C' + '</span></strong>';
     });
 };
 
