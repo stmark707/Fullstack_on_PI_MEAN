@@ -56,7 +56,8 @@ const newtemperatureChart = new Chart(temperaturegetChart,
       },
       responsive: true,
       maintainAspectRatio: false,
-      pointRadius: 5
+      pointRadius: 5,
+      pointBackgroundColor: 'rgba(60,132,167,0.1)'
     }
   });
   const newhumidityChart = new Chart(humiditygetChart,
