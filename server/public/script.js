@@ -28,7 +28,7 @@ const fetchHumidity = () =>
 };
 
 const temperaturegetChart = document.getElementById('temperature_chart').getContext('2d');
-const humiditygetchart = document.getElementById('humidity_chart').getContext('2d');
+const humiditygetChart = document.getElementById('humidity_chart').getContext('2d');
 const temperature_data = {
     labels: ['10:00', '10:10' , '10:20', '10:30'],
     datasets: [{
