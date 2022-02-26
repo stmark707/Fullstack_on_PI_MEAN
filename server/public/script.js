@@ -8,7 +8,7 @@ const fetchTemperature = () => { //something wrong with this syntax...
     {
       return results.json();
     })
-    .then(text => {
+    .then(data => {
       const temperaturedisplay = document.getElementById('temperature-display');
       temperaturedisplay.innerHTML = '<strong>' + data.value + '</strong>';
     });
@@ -21,7 +21,7 @@ const fetchHumidity = () =>
     {
       return results.json();
     })
-    .then(text => {
+    .then(data => {
         const humiditydisplay = document.getElementById('humidity-display');
         humiditydisplay.innerHTML = '<strong>' + data.value + '</strong>';
   });
