@@ -29,7 +29,14 @@ const fetchHumidity = () =>
 
 const temperaturegetChart = document.getElementById('temperature_chart').getContext('2d');
 const humiditygetchart = document.getElementById('humidity_chart').getContext('2d');
-const data = {
+const temperature_data = {
+    labels: ['10:00', '10:10' , '10:20', '10:30'],
+    datasets: [{
+      data: [12, 15, 25, 30],
+      backgroundColor: 'rgba(66,110,202,0.5)'
+    }]
+};
+const humidity_data = {
     labels: ['10:00', '10:10' , '10:20', '10:30'],
     datasets: [{
       data: [12, 15, 25, 30],
@@ -39,7 +46,7 @@ const data = {
 const newtemperatureChart = new Chart(temperaturegetChart,
   {
     type: 'line',
-    data: data,
+    data: temperature_data,
     options:
     {
       legend:
@@ -50,6 +57,20 @@ const newtemperatureChart = new Chart(temperaturegetChart,
       maintainAspectRatio: false
     }
   });
+  const newhumidityChart = new Chart(humiditygetChart,
+    {
+      type: 'line',
+      data: humidity_data,
+      options:
+      {
+        legend:
+        {
+          display: false
+        },
+        responsive: true,
+        maintainAspectRatio: false
+      }
+    });
 
 
 setInterval(() => {
