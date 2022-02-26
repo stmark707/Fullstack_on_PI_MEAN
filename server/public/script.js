@@ -6,11 +6,11 @@ const fetchTemperature = () => { //something wrong with this syntax...
   fetch('/temperature')
   .then(results =>
     {
-      return results.text();
+      return results.json();
     })
     .then(text => {
       const temperaturedisplay = document.getElementById('temperature-display');
-      temperaturedisplay.innerHTML = text;
+      temperaturedisplay.innerHTML = '<strong>' + data.value + '<span>&#176;C' + '</span>' + '</strong>';
     });
 };
 
@@ -19,11 +19,11 @@ const fetchHumidity = () =>
   fetch('/humidity')
   .then(results =>
     {
-      return results.text();
+      return results.json();
     })
     .then(text => {
         const humiditydisplay = document.getElementById('humidity-display');
-        humiditydisplay.innerHTML = text;
+        humiditydisplay.innerHTML = '<strong>' + data.value + '%' + '</strong>';
   });
 };
 
