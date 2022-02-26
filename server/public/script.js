@@ -29,18 +29,17 @@ const fetchHumidity = () =>
 
 const temperaturegetChart = document.getElementById('temperature_chart').getContext('2d');
 const humiditygetchart = document.getElementById('humidity_chart').getContext('2d');
-
+const data = {
+    labels: ['10:00', '10:10' , '10:20', '10:30'],
+    datasets: [{
+      data: [12, 15, 25, 30],
+      backgroundColor: 'rgba(66,110,202,0.5)'
+    }]
+};
 const newtemperatureChart = new Chart(temperaturegetChart,
   {
     type: 'line'
-    data:
-    {
-        labels: ['10:00', '10:10' , '10:20', '10:30'],
-        datasets: [{
-          data: [12, 15, 25, 30],
-          backgroundColor: 'rgba(66,110,202,0.5)'
-        }]
-    },
+    data: data,
     options:
     {
       legend:
