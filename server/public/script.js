@@ -32,7 +32,7 @@ const humiditygetchart = document.getElementById('humidity_chart').getContext('2
 
 const newtemperatureChart = new Chart(temperaturegetChart,
   {
-    type: 'line';
+    type: 'line'
     data:
     {
         labels: ['10:00', '10:10' , '10:20', '10:30'],
@@ -50,7 +50,7 @@ const newtemperatureChart = new Chart(temperaturegetChart,
       responsive: true,
       maintainAspectRatio: false
     }
-  })
+  });
 
 
 setInterval(() => {
