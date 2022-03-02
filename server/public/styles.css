@@ -27,6 +27,7 @@ body * + *
   display:none;
 }
 
+/*TODO: Add some bob animation to the tiles on the webpage, inspect code from ianlunn.github.io/hover*/
 .container
 {
   max-width: 1080px;
